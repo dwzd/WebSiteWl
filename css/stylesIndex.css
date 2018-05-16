@@ -1,0 +1,153 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	width: 999px;
+	height: 100px;
+	background: #ffffff;
+	margin: 0 auto;
+}
+#header .logo{
+	width: 245px;
+	height: 29px;
+	background: ghostwhite;
+	float: left;
+	margin: 39px 0 32px 21px;
+	
+}
+#header .search{
+	width: 229px;
+	height: 27px;
+	background: #f1f1f1;
+	float: right;
+	margin: 39px 19px 32px 0;
+	border: solid 1px #e6e6e6;
+}
+#header .search .txt{
+	/*width: 197px;-16*/
+	width: 181px;
+	height: 29px;
+	border: none;
+	float: left;
+	font-size: 12px;
+	padding-left: 16px;
+	background: #f1f1f1;
+}
+#header .search .btn{
+	width: 32px;
+	height: 29px;
+	float: left;
+	background: url(../img/searchBtn.png) no-repeat left center #f1f1f1 ;
+	border: none;
+}
+
+#nav{
+	width: 999px;
+	height: 60px;
+	background: #313131;
+	margin: 0 auto;
+}
+#nav ul{
+	padding-left: 25px;
+}
+#nav ul li{
+	float: left;
+	list-style: none;
+	width: 120px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-right: solid 1px #484848;
+	font-size: 14px;	
+	background: #313131;
+	
+}
+#nav ul .eight{
+	border-right: none;
+}
+#nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+
+
+#banner{
+	width: 999px;
+	height: 463px;
+	/*background: #b5b7dd;*/
+	margin: 0 auto;
+}
+
+#news{
+	width: 999px;
+	height: 546px;
+	/*background: #f1f1f1;*/
+	margin: 0 auto;
+}
+#news .news-1{
+	width: 999px;
+	height: 240px;
+	/*background: #f1f1f1;*/
+	
+}
+#news .news-1 .infomation1{
+	/*width: 500px;-20-27*/
+	width: 453px;
+	height: 240px;
+	background: white;
+	float: left;
+	padding-left: 20px;
+	padding-right: 27px;
+}
+#news .news-1 .infomation1 h3{
+	height: 84px;
+	font-size: 18px;
+	line-height: 84px;
+	
+}
+#news .news-1 .infomation1 ul li{
+	list-style-position: inside;
+	list-style-image: url(../img/dot.png);
+	height: 25px;
+	line-height: 25px;
+	width: 453px;
+}
+#news .news-1 .infomation1 ul li a{
+	text-decoration: none;
+	color: #595959;
+	font-size: 12px;
+}
+#news .news-1 .infomation1 ul li span{
+	float: right;
+	color: #8e8e8e;
+	font-size: 12px;
+}
+	
+#news .news-1 .infomation2{
+	width: 239px;
+	height: 240px;
+	background: #f1f1f1;
+	float: left;
+}
+#news .news-1 .infomation3{
+	width: 260px;
+	height: 240px;
+	background: greenyellow;
+	float: left;
+}
+
+#news .news-2{
+	width: 999px;
+	height: 306px;
+	background: white;
+}
+
+#footer{
+	width: 999px;
+	height: 332px;
+	background: #e5e5e5;
+	margin: 0 auto;
+}
