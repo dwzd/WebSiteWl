@@ -1,0 +1,304 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{height: 100%;}
+
+#header{
+	/*width: 1100px;-48-48*/
+	width: 1004px;
+	height: 65px;
+	margin: 0 auto;
+	background: #F2F2F2;
+	padding: 0 48px;
+}
+#header .logo{
+	width: 176px;
+	height: 53px;
+	float: left;
+	padding-top: 12px;
+}
+#header .nav{
+	width: 489px;
+	/*height: 65px;-34*/	
+	height: 31px;
+	float: right;
+	text-align: right;
+	padding-top: 34px;
+	/*background: #0000FF;*/
+}
+#header .nav a{
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #aaaaaa;
+	margin-left: 38px;
+}
+#header .nav a:hover{color: palevioletred;}
+
+#banner{
+	width: 1100px;
+	height: 423px;
+	margin: 0 auto;
+	background: darkblue;	
+}
+
+#services{
+	width: 1100px;
+	height: 287px;
+	margin: 0 auto;
+	background: #f2f2f2;
+}
+#services .service{	
+	width: 471px;
+	height: 287px;
+	margin-left: 51px;
+	float: left;
+	/*background: greenyellow;*/	
+}
+#services .service .s1{
+	width: 471px;
+	height: 50px;
+	margin-bottom: 9px;
+}
+#services .service .s2{
+	height: 115px;
+}
+#services .service .s3{
+	height: 115px;
+}
+
+#services .service .left{
+	width: 121px;
+	height: 115px;
+	float: left;
+	font-size: 15px;
+	color: #01bbee;
+	font-family: "微软雅黑";
+}
+#services .service .right{
+	width: 350px;
+	float: left;
+	font-size: 12px;
+	color: #646464;
+	font-family: "微软雅黑";
+}
+
+
+#services .cases{
+	width: 488px;
+	height: 287px;
+	margin-right: 51px;
+	float: right;
+	/*background: gray;*/
+}
+#services .cases .case{
+	width: 488px;
+	height: 50px;
+	
+}
+
+#services .cases .photo{
+	width:488px;
+	height: 214px;
+	margin-top: 21px;
+}
+#about{
+	width: 1001px;
+	height: 429px;
+	margin: 0 auto;
+	background: #F2F2F2;
+	padding: 0 50px;
+}
+#about .view{
+	/*float: left;*/
+	/*background: url(../img/seprate.png);*/
+}
+
+#about .us{
+	width: 303px;
+	height: 225px;
+	margin-top: 69px;
+	/*background: #F2F2F2;*/
+	float: left;
+	background: url(../img/seprate.png) no-repeat right bottom;
+}
+#about .us .title{
+	height: 34px;
+	font-weight: normal;
+	font-size: 18px;
+	color: #6e6e6e;
+
+}
+#about .view .more{
+	height: 28px;
+	font-size: 11px;
+	text-align: right;
+	padding-right: 10px;
+	color: #959595;
+}
+
+
+#about .us .contents{
+	width: 303px;
+	height: 163px;
+	/*background: #f2f2f2;*/
+	background: url(../img/seprate.png) no-repeat right bottom;
+}
+#about .us .contents p{
+	font-size: 13px;
+	font-family: "微软雅黑";
+	line-height: 22px;
+	color: #7d7d7d;
+}
+#about .us .contents .info1{
+	margin-top: 5px;
+}
+#about .us .contents .info2{
+	margin-top: 20px;
+}
+
+#about .news{
+	width: 300px;
+	height: 225px;
+	float:left;
+	margin-top: 69px;
+	/*background: #f2f2f2;*/
+	background: url(../img/seprate.png) no-repeat right bottom;
+}
+#about .news .title{
+	padding-left: 40px;
+}
+#about .view .con1{
+	width: 300px;
+	height: 94px;
+	padding-left: 27px;
+}
+#about .news .contents .con2 p{
+	font-size: 13px;
+	font-family: "微软雅黑";
+	line-height: 23px;
+	color: #7d7d7d;
+	padding-left: 27px;
+}
+
+#about .special .title{
+	padding-left: 22px;
+}
+
+#about .special{
+	width: 398px;
+	height: 225px;
+	float: left;
+	margin-top: 69px;
+	background: #F2F2F2;
+}
+#about .special .actives .detail{
+	/*width: 359px;-22*/
+	width: 333px;
+	height: 164px;
+	background: #F2F2F2;
+	padding-left: 22px;
+	float: left;
+}
+#about .special .actives p{
+	color: #797979;
+	font-size: 13px;
+	line-height: 27px;
+}
+#about .special .actives a{
+	text-decoration: none;
+	color: #797979;
+}
+#about .special .actives a:hover{
+	color: #e13636;
+	font-size: 16px;
+}
+
+#about .special .actives .date{
+	width: 43px;
+	height: 164px;
+	/*background: greenyellow;*/
+	float: left;
+}
+#footer{
+	/*width: 1100px;-116*/
+	width: 984px;
+	/*height: 230px;-52*/
+	height: 178px;
+	margin: 0 auto;
+	background: #383838;
+	/*background: #01BBEE;*/
+	padding: 52px 68px 0 48px;
+}
+#footer .contact{
+	width: 986px;
+	height: 132px;
+	background: #383838;
+	
+}
+#footer .contact .add{
+	width: 455px;
+	height: 132px;
+	float: left;
+	background: #383838;
+}
+#footer .contact .add .nav{
+	padding-left: 2px;
+	height: 15px;
+	margin-bottom: 12px;
+}
+#footer .contact .add .nav a{
+	text-decoration: none;
+	font-size: 13px;
+	color: #bababa;
+	font-family: "微软雅黑";
+}
+#footer .contact .add .nav a:hover{
+	color: brown;
+	font-size: 18px;
+}
+#footer .contact .add .nav span{
+	font-size: 13px;
+	color: #bababa;
+	padding: 0 16px 0;
+}
+#footer .contact .add .address{
+	/*margin-top 12px;*/
+}
+#footer .contact .add p{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #7f7f7f;
+	height: 23px;
+}
+
+#footer .contact .tel{
+	width: 180px;
+	height: 45px;
+	/*background: gold;*/
+	float: right;
+}
+
+#footer .contact .tel .free{
+	font-size: 13px;
+	font-family: "微软雅黑";
+	color: #858585;
+}
+#footer .contact .tel .number{
+	font-size: 19px;
+	color: #bfbfbf;
+	padding-top: 9px;
+}
+
+#footer .copyright{
+	width: 986px;
+	height: 46px;
+	/*background: red;*/
+	text-align: center;
+}
+#footer .copyright p{
+	font-size: 14px;
+	font-family: "楷体";
+	color: #858585;
+}
